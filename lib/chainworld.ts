@@ -1,5 +1,5 @@
 export const BASE_WORLD_PROMPT = 
-ChainWorld is a persistent cinematic science fiction world where verified blockchain activity physically transforms the environment.
+`ChainWorld is a persistent cinematic science fiction world where verified blockchain activity physically transforms the environment.
 
 The world is a vast mineral megacity built across mountains, deep valleys, monumental bridges and ancient industrial structures. Warm amber energy represents verified onchain activity and travels physically through the world.
 
@@ -12,7 +12,7 @@ Every blockchain event must cause a clearly visible physical consequence.
 Keep geography and architecture coherent between scenes. Preserve the identity of ChainWorld while making each event visually distinct.
 
 No text. No logos. No interface elements. No subtitles.
-;
+`;
 
 const EVENT_RECIPES: Record<
   WorldEventKind,
