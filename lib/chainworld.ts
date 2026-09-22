@@ -1,20 +1,3 @@
-export type WorldEventKind =
-  | "wallet"
-  | "transfer"
-  | "mint"
-  | "governance"
-  | "contract";
-
-export type WorldEvent = {
-  id: string;
-  kind: WorldEventKind;
-  title: string;
-  detail: string;
-  prompt: string;
-  createdAt: number;
-  txHash?: string;
-};
-
 export const BASE_WORLD_PROMPT = 
 ChainWorld is a persistent cinematic science fiction world where verified blockchain activity physically transforms the environment.
 
@@ -22,7 +5,7 @@ The world is a vast mineral megacity built across mountains, deep valleys, monum
 
 Create a premium cinematic action sequence with strong depth, realistic materials, atmospheric lighting, volumetric dust, dramatic scale and continuous environmental motion.
 
-Use dynamic camera movement when appropriate, including tracking shots, aerial pursuit, rapid push ins, sweeping crane movement and controlled cinematic acceleration.
+Use dynamic camera movement when appropriate, including tracking shots, aerial pursuit, rapid push-ins, sweeping crane movement and controlled cinematic acceleration.
 
 Every blockchain event must cause a clearly visible physical consequence.
 
